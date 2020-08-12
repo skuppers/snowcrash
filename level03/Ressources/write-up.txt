@@ -1,0 +1,4 @@
+#We copied the binary localy and loaded it in "cutter", a dissasembly and
+decompile tool. Since the binary was doing a call to system, which executed a
+call to /usr/bin/env echo, we replaced echo in our $PATH by a binary executing
+"getflag". 

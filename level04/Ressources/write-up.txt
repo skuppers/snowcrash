@@ -1,4 +1,0 @@
-#A perl script was running and accessible on the browser on the port 4747 of our
-virtual machine. The call to "echo" was vulnerable, as the builtin was called
-with backticks. We injected code through to cut the backticks and execute getflag, after encoding our command to pass it in the
-browser.

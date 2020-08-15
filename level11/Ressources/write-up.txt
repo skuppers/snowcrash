@@ -1,7 +1,0 @@
-# As we open the lua script we see the io.popen call which executes the code
-inside it.
-# we also see that it concatenates the user's password to the command to execute.
-# So simply type connect to the server with
-# nc localhost 5151
-# And type `getflag > /tmp/level11/flag` as password.
-# And read the flag from the /tmp/level11/flag file.

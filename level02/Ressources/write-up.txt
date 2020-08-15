@@ -1,6 +1,0 @@
-#We found the .pcap file, which stands for "packet capture". We copied that file
-locally and loaded it in wireshark. Where we followed the tcp_stream, which
-allow us to only see the sent packets. We then saw the line with
-"ft_wandr...NDRel.LOL". The dots were "7F", which is the ascii code for "DEL" so
-after redoing the user input, we found the password to log into flag02:
-"ft_waNDReL0L".

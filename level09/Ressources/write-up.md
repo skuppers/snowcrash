@@ -11,7 +11,7 @@ Testing the binary with simple strings exposes a pattern:
 If we enter `aaaaa`, the output is `abcde`.
 
 The pattern corresponds with the first test, that we did with the token file.
-As not all characters are evaluated, we need to bypass this with a little binary. (found in the Ressources folder).
+As not all characters are evaluated, we need to bypass this with a little binary (found in the Ressources folder).
 
 The binary reads all 25 characters from the token file and applies the reverse pattern, so instead of incrementing by one every char, we decrement it.
 Which gives us the key.

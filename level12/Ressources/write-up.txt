@@ -1,9 +1,11 @@
 # In the perl script we see that it runs on localhost on port 4646
 # Most of the code can be ignored, appart from those 3 lines:
 
-$xx =~ tr/a-z/A-Z/;
-$xx =~ s/\s.*//;
-@output = `egrep "^$xx" /tmp/xd 2>&1`;
+`$xx =~ tr/a-z/A-Z/;`
+
+`$xx =~ s/\s.*//;`
+
+`@output = `egrep "^$xx" /tmp/xd 2>&1`;`
 
 # Which turns all lowercase letters to uppercase
 # Removes all whitespaces

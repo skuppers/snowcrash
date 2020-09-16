@@ -1,4 +1,4 @@
-# Level14s
+# Level14
 
 As we logged in, we don't see any files in the home directory that peek out.
 So we searched for files with special permissions, checked running processes, services, network sockets, cron jobs, but we found nothing.

@@ -11,6 +11,6 @@ So simply connect to the server with:
 
 `$ nc localhost 5151`
 
-And type `getflag > /tmp/level11/flag` as password.
+And type `pwnd && getflag > /tmp/level11/flag` as password.
 
 And read the flag from the `/tmp/level11/flag` file.

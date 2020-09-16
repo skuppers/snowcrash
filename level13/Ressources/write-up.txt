@@ -1,6 +1,0 @@
-# After dissasembling the program, we have no other choice than injecting a
-crafted library, which overrides the libc getuid() function.
-
-# Compile the function with 'gcc -shared getuid.c -o getuid.so'
-# do 'export LD_PRELOAD=/tmp/level13/getuid.so"
-# launch the 'level13' binary in gdb to get the flag

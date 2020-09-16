@@ -1,5 +1,10 @@
-# As we logged in, we don't see any files in the home directory that peek out.
-# So we searched for files with special permissions, checked running processes, services, network sockets, cron jobs, but we found nothing.
-# So we decided to reverse engineer the getflag binary with cutter.
-# Right at the start we found the string which corresponds to the level 14.
-# But it is encrypted using the ft_des function. So we copied the entire function, rewrote it to understand it better, and added a main function to pass the first argument to ft_des and print the result. TA-DA!
+# Level14
+
+As we logged in, we don't see any files in the home directory that peek out.
+So we searched for files with special permissions, checked running processes, services, network sockets, cron jobs, but we found nothing.
+
+So we decided to reverse engineer the getflag binary with cutter.
+
+At the end of the file we found the string which corresponds to the level 14, and  but it is encrypted using the ft_des function.
+
+So we copied the entire function, rewrote it to understand it better, and added a main function to pass the first argument to ft_des and print the result. TA-DA!
